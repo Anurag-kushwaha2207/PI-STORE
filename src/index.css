@@ -1,0 +1,46 @@
+/* ── Global Reset & Variables ─────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:        #0d0d14;
+  --surface:   #141420;
+  --surface2:  #1c1c2e;
+  --border:    rgba(255,255,255,0.07);
+  --accent:    #7c6af7;
+  --accent2:   #f06a9e;
+  --text:      #e8e6f0;
+  --muted:     #888097;
+  --white:     #ffffff;
+
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  --radius:    14px;
+  --shadow:    0 8px 32px rgba(0,0,0,0.45);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  background: rgba(124, 106, 247, 0.15);
+  color: var(--accent);
+  padding: 2px 7px;
+  border-radius: 5px;
+  font-size: 0.875em;
+}
