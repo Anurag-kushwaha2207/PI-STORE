@@ -1,6 +1,3 @@
-// ─────────────────────────────────────────────
-//  LoadingSpinner.jsx  –  Loading state UI
-// ─────────────────────────────────────────────
 
 import React from 'react'
 
